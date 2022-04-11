@@ -1,0 +1,349 @@
+body{
+   font-family: 'Times New Roman' 'Open Sans';
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: rgb(53, 53, 53);
+
+
+}
+/* HEADER */
+header{
+    height: 550px;
+    background-color: #a8d4dd;
+    padding: 50px 350px 50px 200px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.corazon{
+    display: flex;
+    font-size: 35px;
+
+}
+
+.borde{
+    border-radius: 10px;
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    color: #a8d4dd;
+    
+}
+.fa-solid{
+    margin-right: 15px;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-size: 27px;
+    margin-left: 3rem;
+    font-weight: 550;
+    
+}
+
+
+.template{
+    display: flex;
+    margin-top: 80px;
+}
+
+.this-template{
+    display: flex;
+    width: 45%;
+    padding: 85px;
+    
+}
+
+.this-template h1{
+    margin: auto;
+    color: aliceblue;
+    font-size: 55px;
+   text-align: center;
+   font-weight: 600;
+}
+.computador{
+    display: flex;
+    width: 50%;
+    
+}
+.computador img{
+    margin: auto;
+    width: 420px;
+    height:350px ;
+}
+.circulo{
+    display: flex;
+    justify-content: center;
+}
+.fa-duotone{
+    font-size: 30PX;
+    margin: 7px;
+    border-radius: 50px;
+}
+
+.circuloo {
+  color: #a8d4dd;
+  border: 4px solid white;
+  border-radius: 100%;
+  font-size: 22PX;
+  margin: 7px;
+    
+}
+.diferente{
+  color: white;
+  border: 4px solid white;
+  border-radius: 100%;
+  font-size: 22PX;
+  margin: 7px;
+}
+
+/* Main */
+
+/*Section 1*/
+
+.Sec1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 90px 0;
+}
+
+.flat{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.great{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.browser{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.p1{
+    color: gray;
+    
+}
+/* Section 2*/
+
+.Sec2{
+    height: 1230px;
+    background-color: #97d2a4;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+}
+ .titulo h1{
+     margin: auto;
+     color: whitesmoke;
+     font-size: 50px;
+     font-weight: 800;
+   
+    
+
+
+ }
+ .titulo p{
+    margin: auto;
+    width: 40%;
+    color: rgb(168, 168, 168);
+   
+    font-weight: 100;
+    text-align: center;
+    font-size: 18px;
+
+ }
+ 
+ .Recen{
+     display: flex;
+   
+ }
+
+ .Nav-recent{
+     margin: auto;
+     padding: 4rem 0 2rem 0;
+     display: flex;
+     justify-content: space-around;
+     width: 55%;
+     
+ }
+ .Nav-recent a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    
+    
+    
+ }
+
+ .imagenesg{
+     width: 75%;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+   
+
+ }
+
+ .im1{
+    padding: 2.8rem;
+    
+ }
+
+ .botom{
+    padding-top: 4.5rem;
+     display: flex;
+ }
+
+ .show-more{
+     margin: auto;
+     padding: 15px 25px;
+     border-radius: 10px;
+     border: 1px white;
+     color: gray;
+     
+ }
+
+ /*Section 3*/
+
+ .Layre{
+     background-color: #f1f1f1;
+     height: 900px;
+     padding-top: 5rem;
+ }
+ .Sec3{
+     display: flex  ;
+     width: 70%;
+     margin: auto;
+     padding-bottom: 8rem;
+     
+     
+   
+ }
+
+ .documento{
+     width: 30%;
+     padding-right: 3rem;
+     order: 0;
+ }
+
+ .layred{
+     width: 70%;
+     order: 1;
+     font-size: 20px;
+ }
+
+
+ .show-more2{
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px white;
+    color: gray;
+    background-color: #97d2a4;
+}
+
+
+.documento2{
+    width: 23%;
+    padding: 0 3rem;
+    order: 1;
+}
+
+.layred2{
+    width: 70%;
+    order: 0;
+    font-size: 20px;
+}
+.linea{
+    height: 1px;
+    
+    background-color: gray;
+    width: 70%;
+    margin: auto;
+   
+}
+.show-more3{
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px white;
+    color: gray;
+    background-color: #a8d4dd;
+}
+.secum{
+    padding-top: 8rem;
+    
+}
+
+/* Section 4*/
+
+.Sec4{
+    background-color: #e1b6c7;
+    height: 740px;
+}
+
+.meet{
+    width: 80%;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 3rem 1rem;
+    
+}
+
+.card1{
+  width: 27%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+  
+  
+  
+}
+.cardText{
+    background-color: white;
+    width: 100%;
+    height: 260px;
+    
+   
+}
+
+.cardText > h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cardText > p{
+  padding: 0 1rem 1rem 0;
+  color: gray;
+}
+
+.logo2{
+    display: inline;
+    font-size: 37px;
+    padding: 0.3rem;
+}
+.imaa{
+    width: 100%;
+}
