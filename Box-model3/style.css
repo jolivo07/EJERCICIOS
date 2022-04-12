@@ -1,109 +1,118 @@
-body{
+body {
     font-family: 'Times New Roman', Times, serif, 'Open Sans    ';
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   color: rgb(53, 53, 53);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(53, 53, 53);
 
 
 }
+
 /* HEADER */
-header{
+header {
     height: 550px;
     background-color: #a8d4dd;
     padding: 50px 350px 50px 200px;
     font-family: 'Open sans';
-    
-    
+
+
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     height: 50px;
 }
 
-.corazon{
+.corazon {
     display: flex;
     font-size: 35px;
 
 }
 
-.borde{
+.borde {
     border-radius: 10px;
     background-color: rgb(53, 53, 53);
     padding: 10px;
     color: #a8d4dd;
-    
+
 }
-.fa-solid{
+
+.fa-solid {
     margin-right: 15px;
-   
+
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: rgb(53, 53, 53);
     font-size: 27px;
     margin-left: 3rem;
     font-weight: 550;
-    
+
 }
 
 
-.template{
+.template {
     display: flex;
     margin-top: 80px;
 }
 
-.this-template{
+.this-template {
     display: flex;
     width: 45%;
     padding: 85px;
-    
+
 }
 
-.this-template h1{
+.this-template h1 {
     margin: auto;
     color: aliceblue;
     font-size: 55px;
-   text-align: center;
-   font-weight: 600;
+    text-align: center;
+    font-weight: 600;
 }
-.computador{
+
+.computador {
     display: flex;
     width: 50%;
-    
+
 }
-.computador img{
+
+.computador img {
     margin: auto;
     width: 420px;
-    height:350px ;
+    height: 350px;
 }
-.circulo{
+
+.circulo {
     display: flex;
     justify-content: center;
 }
-.fa-duotone{
+
+.fa-duotone {
     font-size: 30PX;
     margin: 7px;
     border-radius: 50px;
 }
 
 .circuloo {
-  color: #a8d4dd;
-  border: 4px solid white;
-  border-radius: 100%;
-  height:25px ;
-  width: 25px;
-  margin: 7px;
-    
+    color: #a8d4dd;
+    border: 4px solid white;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    margin: 7px;
+
 }
-.diferente{
-  border: 4px solid white;
-  border-radius: 100%;
-  background-color: white;
-  height:25px ;
-  width: 25px;
-  margin: 7px;
+
+.diferente {
+    border: 4px solid white;
+    border-radius: 100%;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    margin: 7px;
 }
 
 
@@ -111,14 +120,14 @@ header{
 
 /*Section 1*/
 
-.Sec1{
+.Sec1 {
     display: flex;
     width: 80%;
     margin: auto;
     padding: 90px 0;
 }
 
-.flat{
+.flat {
     width: 20%;
     margin: auto;
     text-align: center;
@@ -126,136 +135,144 @@ header{
 
 }
 
-.great{
+.great {
     width: 20%;
     margin: auto;
     text-align: center;
 }
-.browser{
+
+.browser {
     width: 20%;
     margin: auto;
     text-align: center;
 }
-.p1{
+
+.p1 {
     color: gray;
-    
+
 }
+
 /* Section 2*/
 
-.Sec2{
+.Sec2 {
     height: 1230px;
     background-color: #97d2a4;
 }
-.titulo{
+
+.titulo {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
     padding-top: 4rem;
-    
+
 }
- .titulo h1{
-     margin: auto;
-     color: whitesmoke;
-     font-size: 50px;
-     font-weight: 900;
-   
-    
+
+.titulo h1 {
+    margin: auto;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 900;
 
 
- }
- .titulo p{
+
+
+}
+
+.titulo p {
     margin: auto;
     width: 40%;
     color: rgb(168, 168, 168);
-   
+
     font-weight: 100;
     text-align: center;
     font-size: 18px;
 
- }
- 
- .Recen{
-     display: flex;
-   
- }
+}
 
- .Nav-recent{
-     margin: auto;
-     padding: 4rem 0 2rem 0;
-     display: flex;
-     justify-content: space-around;
-     width: 55%;
-     
- }
- .Nav-recent a{
+.Recen {
+    display: flex;
+
+}
+
+.Nav-recent {
+    margin: auto;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+
+}
+
+.Nav-recent a {
     color: white;
     text-decoration: none;
     padding: 10px;
     font-size: 25px;
-    
-    
-    
- }
 
- .imagenesg{
-     width: 75%;
-     margin: auto;
-     display: flex;
-     flex-wrap: wrap;
-   
 
- }
 
- .im1{
+}
+
+.imagenesg {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.im1 {
     padding: 2.8rem;
-    
- }
 
- .botom{
+}
+
+.botom {
     padding-top: 4.5rem;
-     display: flex;
- }
+    display: flex;
+}
 
- .show-more{
-     margin: auto;
-     padding: 15px 25px;
-     border-radius: 10px;
-     border: 1px white;
-     color: gray;
-     
- }
+.show-more {
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px white;
+    color: gray;
 
- /*Section 3*/
+}
 
- .Layre{
-     background-color: #f1f1f1;
-     height: 900px;
-     padding-top: 5rem;
- }
- .Sec3{
-     display: flex  ;
-     width: 70%;
-     margin: auto;
-     padding-bottom: 8rem;
-     
-     
-   
- }
+/*Section 3*/
 
- .documento{
-     width: 30%;
-     padding-right: 3rem;
-     order: 0;
- }
+.Layre {
+    background-color: #f1f1f1;
+    height: 900px;
+    padding-top: 5rem;
+}
 
- .layred{
-     width: 70%;
-     order: 1;
-     font-size: 20px;
- }
+.Sec3 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 8rem;
 
 
- .show-more2{
+
+}
+
+.documento {
+    width: 30%;
+    padding-right: 3rem;
+    order: 0;
+}
+
+.layred {
+    width: 70%;
+    order: 1;
+    font-size: 20px;
+}
+
+
+.show-more2 {
     margin: auto;
     padding: 15px 25px;
     border-radius: 10px;
@@ -265,26 +282,28 @@ header{
 }
 
 
-.documento2{
+.documento2 {
     width: 23%;
     padding: 0 3rem;
     order: 1;
 }
 
-.layred2{
+.layred2 {
     width: 70%;
     order: 0;
     font-size: 20px;
 }
-.linea{
+
+.linea {
     height: 1px;
-    
+
     background-color: gray;
     width: 70%;
     margin: auto;
-   
+
 }
-.show-more3{
+
+.show-more3 {
     margin: auto;
     padding: 15px 25px;
     border-radius: 10px;
@@ -292,66 +311,69 @@ header{
     color: gray;
     background-color: #a8d4dd;
 }
-.secum{
+
+.secum {
     padding-top: 8rem;
-    
+
 }
 
 /* Section 4*/
 
-.Sec4{
+.Sec4 {
     background-color: #e1b6c7;
     height: 790px;
 }
 
-.meet{
+.meet {
     width: 80%;
     margin: auto;
 }
 
-.cards{
+.cards {
     display: flex;
     width: 90%;
     margin: auto;
     padding: 3rem 1rem;
-    
+
 }
 
-.card1{
-  width: 27%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  
-  
-  
-  
+.card1 {
+    width: 27%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+
+
+
 }
-.cardText{
+
+.cardText {
     background-color: white;
     width: 100%;
     height: 260px;
-    
-   
+
+
 }
 
-.cardText > h2{
+.cardText>h2 {
     font-size: 30px;
     font-weight: 900;
 }
 
-.cardText > p{
-  padding: 0 1rem 1rem 0;
-  color: gray;
+.cardText>p {
+    padding: 0 1rem 1rem 0;
+    color: gray;
 }
 
-.logo2{
+.logo2 {
     display: inline;
     font-size: 37px;
     padding: 0.3rem;
 }
-.imaa{
+
+.imaa {
     width: 100%;
 }
 
@@ -359,155 +381,167 @@ header{
 /* Section 5*/
 
 
-.Recent-post{
+.Recent-post {
     height: 900px;
     background-color: #b4d4df;
-   
+
 
 
 }
-.Container-posts{
+
+.Container-posts {
     width: 95%;
     margin: auto;
     display: flex;
     padding-top: 4rem;
 }
-.cardpost{
+
+.cardpost {
     display: flex;
     flex-direction: column;
     width: 30%;
     margin: auto;
     text-align: center;
-    
+
 }
-.fondo{
+
+.fondo {
     background-color: rgb(232, 230, 230);
     display: flex;
     height: 200px;
-   
+
 }
 
-.fondo > img{
+.fondo>img {
     margin: auto;
-    
+
 }
 
-.cardText2{
+.cardText2 {
     background-color: white;
     width: 100%;
     height: 230px;
-   
+
 }
-.cardText2 > h4{
+
+.cardText2>h4 {
     font-weight: 550;
     color: rgb(85, 85, 85);
     font-size: 19;
-    
-  }
-.cardText2 > p{
+
+}
+
+.cardText2>p {
     font-weight: 500;
     font-size: 19px;
     color: gray;
-  }
+}
 
-  .show-moreb{
+.show-moreb {
     margin: auto;
     padding: 15px 25px;
     border-radius: 10px;
     border: 1px white;
     color: #b4d4df;
-    
+
 }
 
 /* Section 6*/
 
-.ContactUs{
+.ContactUs {
     height: 1050px;
     background-color: #3c3c3c;
 }
-.hcontact{
+
+.hcontact {
     width: 70%;
     margin: auto;
     padding: 2rem 0;
 }
- 
-.box_text{
+
+.box_text {
     width: 40%;
     margin: auto;
     padding-top: 3.7rem;
 }
 
-#Name{
+#Name {
     display: block;
     width: 100%;
     height: 50px;
-    border: 1px solid #3c3c3c  ;
-    border-radius: 15px;
-    margin-bottom: 3rem;
-    padding: 1rem;
-    font-size: 22px;
-}
-#Email{
-    display: block;
-    width: 100%;
-    height: 50px;
-    border: 1px solid #3c3c3c  ;
+    border: 1px solid #3c3c3c;
     border-radius: 15px;
     margin-bottom: 3rem;
     padding: 1rem;
     font-size: 22px;
 }
 
-#Cajatexto{
+#Email {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #3c3c3c;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: 22px;
+}
+
+#Cajatexto {
     display: block;
     height: 200px;
     width: 100%;
-    border: 2px solid #3c3c3c  ;
+    border: 2px solid #3c3c3c;
     border-radius: 15px;
     padding: 1rem;
     font-size: 22px;
     resize: none;
-    
-    
-    
+
+
+
 }
+
 /* Footer */
-.footer{
+.footer {
     height: 150px;
     background-color: #3c3c3c;
     width: 100%;
-   
-    }
- .footer-container{
-        width: 68%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 3rem;
+
 }
 
-.footerUs{
-    color: #818080;
-    
+.footer-container {
+    width: 68%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
 }
-.lineaa{
+
+.footerUs {
+    color: #818080;
+
+}
+
+.lineaa {
     height: 2px;
     margin-bottom: 2rem;
     background-color: rgb(19, 19, 19);
     width: 68%;
     margin: auto;
-   
+
 }
 
-.footer-logos{
+.footer-logos {
     display: flex;
 }
-.fa-twitter{
+
+.fa-twitter {
     color: #3c3c3c;
     margin: auto;
     font-size: 35px;
 }
-.cont-logo{
+
+.cont-logo {
     text-decoration: none;
     height: 50px;
     width: 50px;
@@ -519,30 +553,31 @@ header{
 
 }
 
-.fa-facebook-f{
-    color: #3c3c3c;
-    margin: auto;
-    font-size: 35px;
-} .fa-html5{
+.fa-facebook-f {
     color: #3c3c3c;
     margin: auto;
     font-size: 35px;
 }
-.fa-css3{
+
+.fa-html5 {
+    color: #3c3c3c;
+    margin: auto;
+    font-size: 35px;
+}
+
+.fa-css3 {
     color: #3c3c3c;
     margin: auto;
     font-size: 35px;
 
 }
-.amarillo{
+
+.amarillo {
     color: rgb(198, 141, 36);
     text-decoration: none;
 }
 
-.botom1{
+.botom1 {
     padding-top: 3rem;
-     display: flex;
- }
-
-
- 
+    display: flex;
+}
