@@ -13,10 +13,16 @@ header {
     height: 550px;
     background-color: #a8d4dd;
     padding: 50px 350px 50px 200px;
-    font-family: 'Open sans';
-
+    font-family: 'Times New Roman , Open Sans';
 
 }
+.menu .menu_diferente {
+    border-radius: 10px;
+     background-color: rgb(53, 53, 53);
+     padding: 10px;
+     color: #a8d4dd;
+}
+
 
 .nav {
     display: flex;
@@ -147,6 +153,11 @@ header {
     text-align: center;
 }
 
+.browser img{
+    height: 150px;
+     width:186px ;
+}
+
 .p1 {
     color: gray;
 
@@ -155,7 +166,7 @@ header {
 /* Section 2*/
 
 .Sec2 {
-    height: 1230px;
+    height: 1260px;
     background-color: #97d2a4;
 }
 
@@ -213,6 +224,19 @@ header {
 
 }
 
+.Nav-recent .recent_diferent{
+    background-color: white; 
+    color: gray; 
+    padding: 10px; 
+    border-radius: 10px;
+
+}
+.Nav-recent .recent_diferent2{
+    padding: 10px; 
+    border-radius: 10px; 
+    border: 2px solid white;
+
+}
 .imagenesg {
     width: 75%;
     margin: auto;
@@ -230,14 +254,18 @@ header {
 .botom {
     padding-top: 4.5rem;
     display: flex;
+    
+
 }
 
-.show-more {
+.botom .show-more {
     margin: auto;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px white;
     color: gray;
+    text-decoration: none;
+    background-color: whitesmoke;
 
 }
 
@@ -273,12 +301,30 @@ header {
 
 
 .show-more2 {
-    margin: auto;
-    padding: 15px 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+    
+}
+.show-moree{
+   
+    padding: 8px 25px;
     border-radius: 10px;
     border: 1px white;
-    color: gray;
+    color: whitesmoke;
     background-color: #97d2a4;
+    width: 18%;
+}
+
+.botomm{
+    width: 23%;
+    border: 1px solid #97d2a4 ;
+    text-align: center;
+    background-color: #97d2a4;
+    border-radius: 15px;
+    
+
 }
 
 
@@ -304,24 +350,28 @@ header {
 }
 
 .show-more3 {
-    margin: auto;
-    padding: 15px 25px;
+   
+    padding: 8px 25px;
     border-radius: 10px;
     border: 1px white;
-    color: gray;
+    color: whitesmoke;
     background-color: #a8d4dd;
+    width: 18%;
 }
 
 .secum {
     padding-top: 8rem;
 
 }
+a{
+    text-decoration: none;
+}
 
 /* Section 4*/
 
 .Sec4 {
     background-color: #e1b6c7;
-    height: 790px;
+    height: 830px;
 }
 
 .meet {
@@ -352,7 +402,7 @@ header {
 .cardText {
     background-color: white;
     width: 100%;
-    height: 260px;
+    height: 285px;
 
 
 }
@@ -369,9 +419,44 @@ header {
 
 .logo2 {
     display: inline;
-    font-size: 37px;
+    font-size: 40px;
     padding: 0.3rem;
 }
+
+.logo2 .fa-facebook{
+    color: blue;
+}
+
+.logo2 .fa-twitter-square{
+    color: rgb(0, 145, 255);
+    font-size: 43px;
+    border: 1px solid rgb(0, 145, 255);
+    border-radius: 100%;
+    
+    
+    
+}
+.icoonos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.logo2 img{
+    width: 42px;
+    height: 42px;
+    padding: 0 0.5rem;
+    
+    
+
+}
+
+.logo2 .fa-pinterest{
+    color: red;
+}
+
+
 
 .imaa {
     width: 100%;
@@ -437,12 +522,14 @@ header {
     color: gray;
 }
 
-.show-moreb {
+ .show-mores {
     margin: auto;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px white;
     color: #b4d4df;
+    text-decoration: none;
+    background-color: whitesmoke;
 
 }
 
@@ -496,11 +583,22 @@ header {
     padding: 1rem;
     font-size: 22px;
     resize: none;
-
-
-
 }
 
+.contact_buton{
+    color: rgb(54, 54, 54);
+    
+}
+.show-box {
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px white;
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+    background-color: whitesmoke;
+
+}
 /* Footer */
 .footer {
     height: 150px;
@@ -553,6 +651,7 @@ header {
 
 }
 
+
 .fa-facebook-f {
     color: #3c3c3c;
     margin: auto;
@@ -580,4 +679,8 @@ header {
 .botom1 {
     padding-top: 3rem;
     display: flex;
+}
+
+.footer_text{
+    word-spacing : 10px;
 }
