@@ -32,24 +32,18 @@ body {
     display: flex;
     border: 4px solid #d8de00;
     margin: 1.5%;
-<<<<<<< HEAD
-=======
-    
->>>>>>> ...
 }
 
 
 /* section 2 */
-.sidebar-wapper{
+
+
+ .sidebar-wapper{
     height: 700px;
     width: 47.5%;
     border: 4px solid #000000;
     margin: 1.5% 0;
-<<<<<<< HEAD
-=======
-    
-    
->>>>>>> ...
+
 
    
 }
