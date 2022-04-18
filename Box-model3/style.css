@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    
 }
 
 .corazon-logo__header {
@@ -133,24 +134,12 @@ header {
     padding: 90px 0;
 }
 
-.flat--flat {
+.flat--flat, .flat--great, .flat--browser {
     width: 20%;
     margin: auto;
     text-align: center;
 
 
-}
-
-.flat--great {
-    width: 20%;
-    margin: auto;
-    text-align: center;
-}
-
-.flat--browser {
-    width: 20%;
-    margin: auto;
-    text-align: center;
 }
 
 .flat--browser img{
@@ -166,16 +155,8 @@ header {
 /* Section 2*/
 
 .recent__section2 {
-    height: 1260px;
+    height: 1330px;
     background-color: #97d2a4;
-}
-
-.recent--titulo {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    padding-top: 4rem;
-
 }
 
 .recent--titulo h1 {
@@ -183,20 +164,17 @@ header {
     color: whitesmoke;
     font-size: 50px;
     font-weight: 900;
-
 }
 
 .recent--titulo p {
     margin: auto;
     width: 40%;
     color: rgb(168, 168, 168);
-
     font-weight: 100;
     text-align: center;
     font-size: 18px;
 
 }
-
 
 .nav-recent {
     margin: auto;
@@ -212,9 +190,6 @@ header {
     text-decoration: none;
     padding: 10px;
     font-size: 25px;
-
-
-
 }
 
 .nav-recent .nav-recent--diferent{
@@ -222,34 +197,26 @@ header {
     color: gray; 
     padding: 10px; 
     border-radius: 10px;
-
 }
+
 .nav-recent .nav-recent--diferent2{
     padding: 10px; 
     border-radius: 10px; 
     border: 2px solid white;
-
 }
+
 .recent-imagenesg {
     width: 75%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .recent-imagenesg--im1 {
     padding: 2.8rem;
-
 }
 
-.recent--botom {
-    padding-top: 4.5rem;
-    display: flex;
-    
 
-}
 
 .recent--botom .show-more {
     margin: auto;
@@ -259,7 +226,6 @@ header {
     color: gray;
     text-decoration: none;
     background-color: whitesmoke;
-
 }
 
 /*Section 3*/
@@ -275,9 +241,6 @@ header {
     width: 70%;
     margin: auto;
     padding-bottom: 8rem;
-
-
-
 }
 
 .container-layred--documento {
@@ -292,16 +255,11 @@ header {
     font-size: 20px;
 }
 
-
 .show-more2 {
     text-decoration: none;
     color: whitesmoke;
-    
-    
-    
 }
-.boton-layred{
-   
+.boton-layred{ 
     padding: 8px 25px;
     border-radius: 10px;
     border: 1px white;
@@ -309,8 +267,6 @@ header {
     background-color: #97d2a4;
     width: 18%;
 }
-
-
 
 .container-layred--documento2 {
     width: 23%;
@@ -326,15 +282,12 @@ header {
 
 .layred-linea {
     height: 1px;
-
     background-color: gray;
     width: 70%;
     margin: auto;
-
 }
 
 .boton-layred2 {
-   
     padding: 8px 25px;
     border-radius: 10px;
     border: 1px white;
@@ -363,42 +316,26 @@ a{
     margin: auto;
 }
 
-.meet--titulo {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    padding-top: 4rem;
-
-}
-
 .meet--titulo h1 {
     margin: auto;
     color: whitesmoke;
     font-size: 50px;
     font-weight: 900;
-
 }
 .meet--titulo p {
     margin: auto;
     width: 40%;
     color: rgb(168, 168, 168);
-
     font-weight: 100;
     text-align: center;
     font-size: 18px;
-
 }
-
-
-
-
 
 .meet-cards {
     display: flex;
     width: 90%;
     margin: auto;
     padding: 3rem 1rem;
-
 }
 
 .meet-cards--card1 {
@@ -407,18 +344,12 @@ a{
     display: flex;
     flex-direction: column;
     margin: auto;
-
-
-
-
 }
 
 .meet-cardText {
     background-color: white;
     width: 100%;
     height: 285px;
-
-
 }
 
 .meet-cardText>h2 {
@@ -446,9 +377,6 @@ a{
     font-size: 43px;
     border: 1px solid rgb(0, 145, 255);
     border-radius: 100%;
-    
-    
-    
 }
 .meet-cards--iconos{
     display: flex;
@@ -461,42 +389,25 @@ a{
     width: 42px;
     height: 42px;
     padding: 0 0.5rem;
-    
-    
-
 }
 
 .meet-cards--logo2 .fa-pinterest{
     color: red;
 }
 
-
-
 .meet-imaa {
     width: 100%;
 }
 
-
 /* Section 5*/
 
-
 .recent-post__section5 {
-    height: 900px;
+    height: 970px;
     background-color: #b4d4df;
-
-
-
 }
 .recent-contenedor--principal{
     width: 80%;
     margin: auto;
-}
-.recent-post--titulo {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    padding-top: 4rem;
-
 }
 
 .recent-post--titulo h1 {
@@ -504,18 +415,15 @@ a{
     color: whitesmoke;
     font-size: 50px;
     font-weight: 900;
-
 }
 
 .recent-post--titulo p {
     margin: auto;
     width: 40%;
     color: rgb(168, 168, 168);
-
     font-weight: 100;
     text-align: center;
     font-size: 18px;
-
 }
 
 .container-posts {
@@ -531,47 +439,40 @@ a{
     width: 30%;
     margin: auto;
     text-align: center;
-
 }
 
 .post-card--fondo {
     background-color: rgb(232, 230, 230);
     display: flex;
     height: 200px;
-
 }
 
 .post-card--fondo>img {
     margin: auto;
-
 }
 
 .post-card--texto {
     background-color: white;
     width: 100%;
-    height: 230px;
-
+    height: 250px;
+    
 }
 
 .post-card--texto>h4 {
     font-weight: 550;
     color: rgb(85, 85, 85);
     font-size: 19;
-
 }
 
 .post-card--texto>p {
     font-weight: 500;
     font-size: 19px;
     color: gray;
-}
-
-.recent-post--botom {
-    padding-top: 4.5rem;
-    display: flex;
+    width: 80%;
+    margin: auto;
     
-
 }
+
 
 
  .recent-botom--show {
@@ -592,31 +493,20 @@ a{
     background-color: #3c3c3c;
 }
 
-.contactUs--titulo {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    padding-top: 4rem;
-
-}
-
 .contactUs--titulo h1 {
     margin: auto;
     color: whitesmoke;
     font-size: 50px;
     font-weight: 900;
-
 }
 
 .contactUs--titulo p {
     margin: auto;
     width: 40%;
     color: rgb(168, 168, 168);
-
     font-weight: 100;
     text-align: center;
     font-size: 18px;
-
 }
 
 .contactUs--parrafo {
@@ -666,15 +556,8 @@ a{
 
 .contact_buton{
     color: rgb(54, 54, 54);
-    
 }
 
-.contact-botom {
-    padding-top: 4.5rem;
-    display: flex;
-    
-
-}
 .show-box {
     margin: auto;
     padding: 10px 20px;
@@ -690,7 +573,6 @@ a{
     height: 150px;
     background-color: #3c3c3c;
     width: 100%;
-
 }
 
 .footer-container {
@@ -719,12 +601,6 @@ a{
     display: flex;
 }
 
-.fa-twitter {
-    color: #3c3c3c;
-    margin: auto;
-    font-size: 35px;
-}
-
 .cont-logo {
     text-decoration: none;
     height: 50px;
@@ -738,23 +614,10 @@ a{
 }
 
 
-.fa-facebook-f {
+.fa-facebook-f, .fa-html5, .fa-css3, .fa-twitter{
     color: #3c3c3c;
     margin: auto;
     font-size: 35px;
-}
-
-.fa-html5 {
-    color: #3c3c3c;
-    margin: auto;
-    font-size: 35px;
-}
-
-.fa-css3 {
-    color: #3c3c3c;
-    margin: auto;
-    font-size: 35px;
-
 }
 
 .p-amarillo {
@@ -762,11 +625,21 @@ a{
     text-decoration: none;
 }
 
-.botom1 {
-    padding-top: 3rem;
+.footer_text{
+    word-spacing : 10px;
+}
+
+/* botones generales en diferentes seccicones*/
+.recent--botom, .recent-post--botom, .contact-botom{
+    padding-top: 4.5rem;
     display: flex;
 }
 
-.footer_text{
-    word-spacing : 10px;
+/* Titulos generales en diferentes seccicones */
+
+.recent--titulo,.meet--titulo, .recent-post--titulo, .contactUs--titulo {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    padding-top: 4rem;
 }
