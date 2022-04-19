@@ -10,7 +10,7 @@ body {
 
 /* HEADER */
 header {
-    height: 550px;
+    height: 520px;
     background-color: #a8d4dd;
     padding: 50px 350px 50px 200px;
     font-family: 'Times New Roman , Open Sans';
@@ -157,6 +157,7 @@ header {
 .recent__section2 {
     height: 1330px;
     background-color: #97d2a4;
+    
 }
 
 .recent--titulo h1 {
@@ -175,6 +176,7 @@ header {
     font-size: 18px;
 
 }
+
 
 .nav-recent {
     margin: auto;
@@ -206,21 +208,35 @@ header {
 }
 
 .recent-imagenesg {
-    width: 75%;
-    margin: auto;
+    width: 100%;
+    display: flex;  
+    padding: 3.5rem 0;
+}
+.recent-imagenesg2{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    padding-bottom: 2rem;  
+    padding-top: 1rem;
 }
 
+.recent-container--imagenes{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
 .recent-imagenesg--im1 {
-    padding: 2.8rem;
+    margin: auto;
+    width: 27%;
+
 }
 
 
 
 .recent--botom .show-more {
     margin: auto;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 10px;
     border: 1px white;
     color: gray;
@@ -637,7 +653,7 @@ a{
 
 /* Titulos generales en diferentes seccicones */
 
-.recent--titulo,.meet--titulo, .recent-post--titulo, .contactUs--titulo {
+.recent--titulo, .meet--titulo, .recent-post--titulo, .contactUs--titulo {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
