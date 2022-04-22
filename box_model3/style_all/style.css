@@ -812,7 +812,7 @@ a{
     /* Section 2*/
 
 .recent__section2 {
-    height: 1820px;
+    height: 1990px;
     background-color: #97d2a4;
 }
 
@@ -839,16 +839,20 @@ a{
     padding: 2rem 0 1rem 0;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    box-shadow: 0px 3px 2px whitesmoke;
-
+    width: 90%;
+    flex-direction: column;
 }
+
 
 .nav-recent a {
     color: white;
     text-decoration: none;
     padding: 9px;
-    font-size: 12px;
+    font-size: 12px; padding: 9px; 
+    border-radius: 8px; 
+    border: 1px solid white;
+    margin-bottom: 5px;
+
 }
 
 .nav-recent .nav-recent--diferent{
@@ -861,7 +865,7 @@ a{
 .nav-recent .nav-recent--diferent2{
     padding: 9px; 
     border-radius: 8px; 
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .recent-container--imagenes{
