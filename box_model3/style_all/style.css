@@ -237,8 +237,6 @@ header {
 
 }
 
-
-
 .recent--botom .show-more {
     margin: auto;
     padding: 8px 20px;
@@ -653,7 +651,7 @@ a{
 
 /* botones generales en diferentes seccicones*/
 .recent--botom, .recent-post--botom, .contact-botom{
-    padding-top: 4.5rem;
+    padding-top: 3.5rem;
     display: flex;
 }
 
@@ -675,7 +673,7 @@ a{
        font-size: 30px;
    }
     header {
-        height: 450px;
+        height: 300px;
         background-color: #a8d4dd;
         padding: 50px 0 ;
         max-height: 100%;
@@ -692,14 +690,15 @@ a{
     .nav__header {
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 85%;
         margin: auto;
+
         
     }
     
     .corazon-logo__header {
         display: flex;
-        font-size: 40px;
+        font-size: 22px;
     
     }
     
@@ -712,16 +711,20 @@ a{
     .template {
         display: flex;
         margin-top: 30px;
-        width: 80%;
+        width: 90%;
         margin: auto;
         padding: 4rem 0;
-        justify-content: space-between;
+        margin-bottom: 1rem;
+        
+       
     }
     
     .template--text {
         display: flex;
-        width: 45%;
+        width: 50%;
         padding: 0;
+        
+        
 
     
     }
@@ -729,21 +732,22 @@ a{
     .template--text h1 {
         margin: auto;
         color: aliceblue;
-        font-size: 50px;
+        font-size: 25px;
         text-align: center;
         font-weight: 600;
     }
     
     .template--imagen {
         display: flex;
-        width: 45%;
+        width: 50%;
+        
     
     }
     
     .template--imagen img {
         margin: auto;
-        width: 280px;
-        height: 250px;
+        width: 100px;
+        height: 100px;
     }
     
     .circulo {
@@ -756,8 +760,8 @@ a{
         color: #a8d4dd;
         border: 4px solid white;
         border-radius: 100%;
-        height: 18px;
-        width: 18px;
+        height: 12px;
+        width: 12px;
         margin: 7px;
     
     }
@@ -766,8 +770,8 @@ a{
         border: 4px solid white;
         border-radius: 100%;
         background-color: white;
-        height: 18px;
-        width: 18px;
+        height: 12px;
+        width: 12px;
         margin: 7px;
     }
   
@@ -776,16 +780,20 @@ a{
     /*Section 1*/
 
     .flat__section2 {
+       
         display: flex;
-        width: 90%;
+        width: 100%;
         margin: auto;
         padding: 90px 0;
+        flex-direction: column;
+        
     }
 
     .flat--flat, .flat--great, .flat--browser {
-        width: 40%;
+        width:60%;
         margin: auto;
         text-align: center;
+        margin-bottom: 3rem;
 
 
     }
@@ -804,20 +812,20 @@ a{
     /* Section 2*/
 
 .recent__section2 {
-    height: 2680px;
+    height: 1820px;
     background-color: #97d2a4;
 }
 
 .recent--titulo h1 {
     margin: auto;
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 39px;
     font-weight: 900;
 }
 
 .recent--titulo p {
     margin: auto;
-    width: 50%;
+    width: 75%;
     color: rgb(168, 168, 168);
     font-weight: 100;
     text-align: center;
@@ -832,27 +840,27 @@ a{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    box-shadow: 2px 2px 2   px whitesmoke;
+    box-shadow: 0px 3px 2px whitesmoke;
 
 }
 
 .nav-recent a {
     color: white;
     text-decoration: none;
-    padding: 10px;
-    font-size: 25px;
+    padding: 9px;
+    font-size: 12px;
 }
 
 .nav-recent .nav-recent--diferent{
     background-color: white; 
     color: gray; 
-    padding: 10px; 
-    border-radius: 10px;
+    padding: 9px; 
+    border-radius: 8px;
 }
 
 .nav-recent .nav-recent--diferent2{
-    padding: 10px; 
-    border-radius: 10px; 
+    padding: 9px; 
+    border-radius: 8px; 
     border: 2px solid white;
 }
 
@@ -884,12 +892,23 @@ a{
     padding-bottom: 4rem;
 
 }
+.recent--botom .show-more {
+    margin: auto;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 1px white;
+    color: gray;
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-size: 11px;
+}
+
 
 /*Section 3*/
 
 .layre__section3 {
     background-color: #f1f1f1;
-    height: 1700px;
+    height: 1440px;
     padding-top: 5rem;
     width: 100%;
 }
@@ -914,6 +933,10 @@ a{
     margin: auto;
     text-align: center;
 }
+.container-layred--documento>img{
+    width: 280px;
+
+}
 
 .container-layred--texto {
     width: 80%;
@@ -923,6 +946,12 @@ a{
     text-align: center;
     padding: 0;
 }
+.container-layred--texto>h2{
+    font-size: 20px;
+}
+.container-layred--texto div>p{
+    font-size: 13px;
+}
 
 .boton-layred{ 
     padding: 3px 25px;
@@ -930,8 +959,9 @@ a{
     border: 1px white;
     color: whitesmoke;
     background-color: #97d2a4;
-    width: 35%;
+    width: 40%;
     margin: auto;
+    font-size: 12px;
 
 }
 
@@ -944,6 +974,17 @@ a{
     padding: 0;
     padding-top: 5.5rem;
 }
+.container-layred--documento2>img{
+    width: 280px;
+
+}
+.container-layred--texto2>h2{
+    font-size: 20px;
+}
+.container-layred--texto2 div>p{
+    font-size: 13px;
+}
+
 
 .container-layred--texto2 {
     width: 80%;
@@ -963,8 +1004,9 @@ a{
     border: 1px white;
     color: whitesmoke;
     background-color: #a8d4dd;
-    width: 35%;
+    width: 40%;
     margin: auto;
+    font-size: 12px;
     
 }
 .secum {
@@ -977,7 +1019,21 @@ a{
 
 .meet__section4 {
     background-color: #e1b6c7;
-    height: 1430px;
+    height: 1980px;
+}
+.meet--titulo h1 {
+    margin: auto;
+    color: whitesmoke;
+    font-size: 39px;
+    font-weight: 900;
+}
+.meet--titulo p {
+    margin: auto;
+    width: 70%;
+    color: rgb(168, 168, 168);
+    font-weight: 100;
+    text-align: center;
+    font-size: 14px;
 }
 
 .meet-container--principal {
@@ -991,22 +1047,30 @@ a{
     width: 100%;
     margin: auto;
     padding: 3rem 0;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .meet-cards--card1 {
-    width: 40%;
+    width: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: auto;
     padding-bottom: 4rem;
+    
 }
+.meet-cardText>p {
+    padding: 0 1rem 1rem 0;
+    color: gray;
+    width: 90%;
+    margin: auto;
+}
+
 
 /* Section 5*/
 
 .recent-post__section5 {
-    height: 1670px;
+    height: 2260px;
     background-color: #b4d4df;
 }
 .recent-contenedor--principal{
@@ -1017,17 +1081,17 @@ a{
 .recent-post--titulo h1 {
     margin: auto;
     color: whitesmoke;
-    font-size: 56px;
+    font-size: 45px;
     font-weight: 900;
 }
 
 .recent-post--titulo p {
     margin: auto;
-    width: 60%;
+    width: 75%;
     color: rgb(168, 168, 168);
     font-weight: 100;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .container-posts {
@@ -1035,13 +1099,13 @@ a{
     margin: auto;
     display: flex;
     padding-top: 4rem;
-    flex-wrap: wrap;
+   flex-direction: column;
 }
 
 .container-posts--card {
     display: flex;
     flex-direction: column;
-    width: 37%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding: 3rem 0;
@@ -1055,7 +1119,16 @@ a{
     height: 290px;
     
 }
-
+.recent-botom--show {
+    margin: auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px white;
+    color: #b4d4df;
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-size: 11px;
+}
 /* Section 6*/
 
 .contactUs__section6 {
@@ -1069,21 +1142,34 @@ a{
     color: rgb(168, 168, 168);
     font-weight: 100;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contactUs--parrafo {
     width: 70%;
     margin: auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .contact--box {
     width: 65%;
     margin: auto;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
-
+.show-box {
+    margin: auto;
+    padding: 8px 17px;
+    border-radius: 10px;
+    border: 1px white;
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+.contact-botom{
+    width: 100%;
+    margin: auto;
+}
 
 /* Footer */
 .footer {
@@ -1097,27 +1183,27 @@ a{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .footer-texto {
     color: #818080;
-    font-size: 12px;
+    font-size: 8px;
     text-align: center;
-    width: 50%;
+    width: 65%;
 
 }
 
 
 .cont-logo {
     text-decoration: none;
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     background-color: #818080;
     display: flex;
     border: 1px solid #3c3c3c;
     border-radius: 100%;
-    margin-right: 10px;
+    margin-right: 4px;
 
 }
 
@@ -1125,14 +1211,24 @@ a{
 .fa-facebook-f, .fa-html5, .fa-css3, .fa-twitter{
     color: #3c3c3c;
     margin: auto;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-
+.footer-logos {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
 
 .footer_text{
-    word-spacing : 8px;
+    word-spacing : 0;
 }
+
+
+
+
+
+
 
 
 }
