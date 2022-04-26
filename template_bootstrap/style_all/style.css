@@ -10,3 +10,18 @@
 .template-header{
     padding: 8rem 0;
 }
+.padding{
+    padding-top: 9rem;
+}
+
+.padding-people{
+    padding-bottom: 8rem;
+}
+.img-section-started{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images\ 2/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
