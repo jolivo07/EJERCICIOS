@@ -11,7 +11,7 @@
     padding: 8rem 0;
 }
 .padding{
-    padding-top: 9rem;
+    padding-top: 7rem;
 }
 
 .padding-people{
@@ -30,4 +30,22 @@
 }
 .word-spacing{
     word-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+    .container .row>.width-header{
+        width: 100% !important;
+    }
+    .container-xl  .col-xl-auto>h1{
+        width: 100%!important;
+    }
+   .order-left{
+    order: 1;
+    padding: 3rem 0;
+   }
+   .order-rigth{
+    order: 0;
+    padding: 3rem 0;
+   }
+    
 }
