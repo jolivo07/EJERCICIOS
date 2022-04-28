@@ -1,21 +1,9 @@
-
-
 .img-header{
     height: 700px;
    background-image: url("../images\ 2/bg-masthead.jpg");
    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-.template-header{
-    padding: 8rem 0;
-}
-.padding{
-    padding-top: 7rem;
-}
-
-.padding-people{
-    padding-bottom: 8rem;
 }
 .img-section-started{
     width: 100%;
@@ -25,27 +13,26 @@
     background-size: cover;
     background-position: center;
 }
-.container .row>.width-header{
-    width: 62%;
+.py-8{
+    padding: 8rem 0;
 }
-.word-spacing{
-    word-spacing: 4px;
+.pt-7{
+    padding-top: 7rem;
 }
-
+.pb-8{
+    padding-bottom: 8rem;
+}
+.w-62{
+    width: 62%!important;
+}
+.w-spacing{
+    word-spacing: 4px!important;
+}
 @media (max-width: 768px) {
-    .container .row>.width-header{
+    .container .row>.w-62{
         width: 100% !important;
     }
     .container-xl  .col-xl-auto>h1{
         width: 100%!important;
     }
-   .order-left{
-    order: 1;
-    padding: 3rem 0;
-   }
-   .order-rigth{
-    order: 0;
-    padding: 3rem 0;
-   }
-    
 }
