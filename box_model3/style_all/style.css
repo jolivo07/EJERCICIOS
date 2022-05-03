@@ -2,8 +2,8 @@
 header{
     background-color: #a8d4dd; 
 }
-.container .menu>.porftolio-border  {
-    background-color: rgb(53, 53, 53);
+.porftolio-border  {
+    background-color: rgb(53, 53, 53) !important;
 }
 .circle-next{
     height: 28px;
