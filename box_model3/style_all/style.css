@@ -1,9 +1,11 @@
+@import url(var.css);
+
 /* Header */
 header{
-    background-color: #a8d4dd; 
+    background-color: var(--template); 
 }
 .porftolio-border  {
-    background-color: rgb(53, 53, 53) !important;
+    background-color: var(--grey-dark) !important;
 }
 .circle-next{
     height: 28px;
@@ -18,16 +20,16 @@ header{
 
 /* Section-recent-works */
 .recent-works{
-    background-color: #97d2a4;
+    background-color: var(--recent-works);
 }
  /* Section-layred */
 .layred{
-    background-color: #f1f1f1;
+    background-color: var(--layred);
 }
 
 /* Secion meet */
 .meet{
-    background-color: #e1b6c7;
+    background-color: var(--meet);
 }
 .card{
     width: 21rem;
@@ -39,14 +41,14 @@ header{
 
 /* section-recent-post */
 .recent{
-    background-color: #b4d4df;
+    background-color: var(--recent) ;
 }
 .users{
     width: 24rem !important;
 }
 .bg-image{
     height: 200px;
-    background-color: rgb(232, 230, 230); 
+    background-color: var(--bg-grey-lighter); 
 }
 
 /* Section-contact-us*/
@@ -58,7 +60,6 @@ textarea{
 .cont-logo {
     height: 50px;
     width: 50px;
-    border: 1px solid #3c3c3c;
 }
 
 /* Generale */
@@ -68,13 +69,13 @@ textarea{
     width: 70% !important;
 }
 .bg-green{
-    background-color: #97d2a4 !important;
+    background-color: var(--recent-works) !important;
 }
 .bg-blue-light{
-    background-color: #a8d4dd !important;
+    background-color: var(--template) !important;
 }
 .text-blue-light{
-    color: #a8d4dd !important;
+    color: var(--template) !important;
 }
 .w-35{
     width: 35% !important;
@@ -83,19 +84,19 @@ textarea{
     width: 40% !important;
 }
 .text-orange{
-    color: rgb(198, 141, 36);
+    color: var(--orange-lighter);
 }
 .text-grey-light{
-    color: #3c3c3c !important;
+    color: var(--contact-us) !important;
 }
 .text-grey-lighter{
-    color: #818080 !important;
+    color: var(--grey-lighter) !important;
 }
 .bg-grey-lighter{
-    background-color:#818080 ;
+    background-color: var(--grey-lighter) ;
 }
 .bg-grey{
-    background-color: #3c3c3c !important;
+    background-color: var(--contact-us) !important;
 }
 .border-r{
     border-radius: 10px !important;
