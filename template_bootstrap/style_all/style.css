@@ -1,0 +1,33 @@
+.img-header{
+    height: 700px;
+    background-image: url("../images_template/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-section-started{
+    height: 400px;
+    background-image: url("../images_template/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.py-8{
+    padding: 8rem 0;
+}
+.pt-7{
+    padding-top: 7rem;
+}
+.pb-8{
+    padding-bottom: 8rem;
+}
+.w-62{
+    width: 62%!important;
+}
+.w-spacing{
+    word-spacing: 4px!important;
+}
+
+
+
+
+
+
