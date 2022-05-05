@@ -1,0 +1,97 @@
+@import url(var.css);
+
+/* Header */
+.bg-grey-dark  {
+    background-color: var(--grey-dark) !important;
+}
+.nav-carousel{
+    height: 28px;
+    width: 28px; 
+}
+.nav-carousel-select {
+    height: 28px;
+    width: 28px;
+}
+
+/* Main */
+
+
+ /* Section-layred */
+.bg-white-soke{
+    background-color: var(--white-smoke);
+}
+/* Section-meet*/
+.bg-pink{
+    background-color: var(--pink);
+}
+.card{
+    width: 21rem;
+}
+ .img-twitter{
+    width: 42px !important;
+    height: 42px !important;
+}
+
+/* section-recent-post */
+.bg-blue-light{
+    background-color: var(--blue-light) ;
+}
+.w-24r{
+    width: 24rem !important;
+}
+.bg-image{
+    height: 200px;
+    background-color: var(--bg-grey-lighter); 
+}
+
+/* Section-contact-us*/
+.h-200p{
+    height: 200px !important;
+}
+
+/* Footer */
+.cont-logo {
+    height: 50px;
+    width: 50px;
+}
+
+/* Generale */
+.py-25{
+    padding: 0.7rem 0 !important;
+}.w-70{
+    width: 70% !important;
+}
+.bg-green{
+    background-color: var(--green) !important;
+}
+.bg-blue{
+    background-color: var(--blue) !important;
+}
+.text-blue-light{
+    color: var(--blue) !important;
+}
+.w-35{
+    width: 35% !important;
+}
+.w-40{
+    width: 40% !important;
+}
+.text-orange{
+    color: var(--orange-lighter);
+}
+.text-grey-light{
+    color: var(--grey) !important;
+}
+.text-grey-lighter{
+    color: var(--grey-lighter) !important;
+}
+.bg-grey-lighter{
+    background-color: var(--grey-lighter) ;
+}
+.bg-grey{
+    background-color: var(--grey) !important;
+}
+
+.border-r{
+    border-radius: 10px !important;
+}

@@ -1,304 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box-model 3</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" >
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@93.5,730&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ac86957948.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style_all/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>ColorFul Fat</title>
 </head>
-
 <body>
-    <header>
-        <nav class="nav__header">
-            <div class="corazon-logo__header"><i class="fa-solid fa-heart"></i>COLORFUL FLAT</div>
-            <div class="menu__header">
-                <a href="#">Home </a>
-                <a href="#">Services</a>
-                <a class="menu-diferente" href="#">Portfolio</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </div>
-        </nav>
-        <div class="template">
-            <div class="template--text">
-                <h1>THIS TEMPLATE IS AWESOME!</h1>
-            </div>
-            <div class="template--imagen"><img src="images/iMac.png" alt="ImagenMac"></div>
-        </div>
+    <header class="bg-blue">
+        <div class="container ">
+            <div class="row py-5 px-5">
+                <div class="col-12 py-3 d-flex col-lg-5 justify-content-start align-items-center"><div class="fs-2 fw-bolder "><i class="fa-solid fa-heart fs-2 me-3"></i>COLORFUL FLAT</div></div>
+                <div class="col-12  d-flex col-lg-7">
+                    <div class="m-auto">
+                        <nav class="navbar navbar-expand-lg navbar-light ">
+                            <div class="container-fluid">
+                              
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav fs-3">
+                                  <li class="nav-item">
+                                    <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active mx-3" aria-current="page" href="#">Services</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active mx-3 text-decoration-none mx-4 p-2 border-r text-blue-light bg-grey-dark" aria-current="page" href="#">Portfolio</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active mx-3" aria-current="page" href="#">Blog</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active mx-3" aria-current="page" href="#">Contact </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                    
 
-        <div class="circulo">
-            <a href="#" class="circulo--diferente"></a>
-            <a href="#" class="circulo--siguiente"></a>
-            <a href="#" class="circulo--siguiente"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container p-5">
+            <div class="row d-flex ">
+                <div class="col-12 col-lg-6 order-1 order-lg-0 d-flex text-center align-middle text-white  ">
+                    <h1 class="display-2 fw-bolder  py-5 px-4 ">THIS TEMPLATE IS AWESOME!</h1>
+                </div>
+                <div class="col-12 col-lg-6 order-0 order-lg-1">
+                    <div class="text-center "><img class="img-fluid w-70" src="images/iMac.png" alt="ImagenMac"></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pb-5">
+            <a href="#" class="nav-carousel-select border m-2 border-3 border-white bg-white rounded-circle"></a>
+            <a href="#" class="nav-carousel border-4 border-white border rounded-circle m-2"></a>
+            <a href="#" class="nav-carousel border-4 border-white border rounded-circle m-2 "></a>
         </div>
     </header>
-
-
     <main>
-        <section class="flat__section2">
-            <div class="flat--flat">
-                <img src="images/iMac-Phone.png" alt="iMac-phone">
-                <h3>Flat Design</h3>
-                <p class="flat-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto? Nemo, ducimus
-                    cumque doloremque ea tempora quisquam.</p>
-
-            </div>
-            <div class="flat--great">
-                <img src="images/light-bulb.png" alt="light-bulb">
-                <h3>Great ideas</h3>
-                <p class="flat-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto? Nemo, ducimus
-                    cumque doloremque ea tempora quisquam.</p>
-
-            </div>
-            <div class="flat--browser">
-                <img src="images/document.png" alt="Document">
-                <h3>Browser compatibility</h3>
-                <p class="flat-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto? Nemo, ducimus
-                    cumque doloremque ea tempora quisquam.</p>
-
-            </div>
-
-        </section>
-        <section class="recent__section2">
-            <div class="recent--titulo">
-                <h1>RECENT WORKS</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id commodi corporis sint maiores, pariatur
-                    provident? Exercitationem, nemo non?</p>
-
-            </div>
-
+        <section>
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-12 col-lg-4 mx-auto">
+                        <div class="d-flex flex-column mx-auto w-75">
+                            <img class="w-50 mx-auto py-4" src="images/iMac-Phone.png" alt="iMac-phone">
+                            <h3 class="text-center">Flat Design</h3>
+                            <p class="text-center fw-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto? Nemo, ducimus
+                                cumque doloremque ea tempora quisquam.</p>
             
-                <nav class="nav-recent">
-                    <a class="nav-recent--diferent" href="#">ALL</a>
-                    <a class="nav-recent--diferent2" href="#">WEB</a>
-                    <a href="#">MOBILE</a>
-                    <a href="#">PHOTOGRAPHY</a>
-                    <a href="#">DESIGN</a>
-                    <a href="#">TYPE</a>
+                        </div>
 
-                </nav>
-           
+                    </div>
+                    <div class="col-12 col-lg-4 mx-auto">
+                        <div class="d-flex flex-column mx-auto w-75">
+                            <img class=" mx-auto py-25" src="images/light-bulb.png" alt="light-blue">
+                            <h3 class="text-center">Great Ideas</h3>
+                            <p class="text-center fw-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto? Nemo, ducimus
+                                cumque doloremque ea tempora quisquam.</p>
+            
+                        </div>
 
-           
-                <div class="recent-container--imagenes">
-                    <div class="recent-imagenesg">
-                        <img class="recent-imagenesg--im1" src="images/recent-works-1.png" alt="recent-works-1">
-                        <img class="recent-imagenesg--im1" src="images/recent-works-2.png" alt="recent-works-2">
-                        <img class="recent-imagenesg--im1" src="images/recent-works-3.png" alt="recent-works-3">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column mx-auto w-75">
+                            <img class="w-50 mx-auto py-4" src="images/document.png" alt="iamge-document">
+                            <h3 class="text-center">Browser compatibility</h3>
+                            <p class="text-center fw-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto? Nemo, ducimus
+                                cumque doloremque ea tempora quisquam.</p>
+            
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-green py-5">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-12">
+                        <h1 class="text-center display-4 fw-bolder">RECENT WORKS</h1>
+                    </div>
+                    <div class="col-12 col-lg-6 mx-auto">
+
+                        <p class="text-center w-100 mx-auto fw-light px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id commodi corporis sint maiores, pariatur
+                            provident? Exercitationem, nemo non?</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-none d-lg-block  text-center mx-auto py-5 fs-4">
+                          
+                            <a class="text-decoration-none text-muted border-white border p-2 px-3 bg-white border-r  " href="#"> ALL</a>
+                            <a class="text-decoration-none text-white mx-5 border-white border p-2 px-3 border-r border-3 " href="#">WEB</a>
+                            <a class="text-decoration-none text-white ms-1 me-4" href="#">MOBILE</a>
+                            <a class="text-decoration-none text-white mx-4" href="#">PHOTOGRAPHY</a>
+                            <a class="text-decoration-none text-white mx-4" href="#">DESIGN</a>
+                            <a class="text-decoration-none text-white mx-4" href="#">TYPE</a>
+                           
+                    </div>
+                    <div class="col-12 d-flex fw-bolder border-2 pt-5 shadow  justify-content-center d-block d-lg-none border-bottom border-white ">
+                        <a class=" text-white pe-2 text-center" href="#"> ALL</a>
+                        <a class=" text-white pe-2 text-center" href="#">WEB</a>
+                        <a class=" text-white pe-2 text-center" href="#">MOBILE</a>
+                        <a class=" text-white pe-2 text-center" href="#">PHOTOGRAPHY</a>
+                        <a class=" text-white pe-2 text-center" href="#">DESIGN</a>
+                        <a class=" text-white pe-2 text-center" href="#">TYPE</a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="container  py-5">
+                <div class="row ">
+                    <div class="col-4  d-flex">
+                        <img class="img-fluid mx-auto" src="images/recent-works-1.png" alt="recent-works-1">
+                        
+                    </div>
+                    <div class="col-4 d-flex">
+                        <img class="img-fluid mx-auto" src="images/recent-works-2.png" alt="recent-works-2">
+
+                    </div>
+                    <div class="col-4 d-flex">
+                        <img class="img-fluid mx-auto" src="images/recent-works-3.png" alt="recent-works-3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-4 d-flex">
+                        <img class="img-fluid mx-auto" src="images/recent-works-4.png" alt="recent-works-4">
                        
                     </div>
+                    <div class="col-4 d-flex">
+                        <img class="img-fluid mx-auto" src="images/recent-works-5.png" alt="recent-works-5">
+                       
+                    </div>
+                    <div class="col-4 d-flex">
+                        <img class="img-fluid mx-auto" src="images/recent-works-61.png" alt="recent-works-6">
+
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex py-5">
+                <div class="row mx-auto ">
+                    <button type="button" class="btn btn-light py-4 border border-r px-4 fw-bolder fs-5 text-muted">SHOW MORE</button>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="bg-white-smoke ">
+            <div class="container py-5">
+                <div class="row  px-3 py-5">
+                    <div class="col-12 col-lg-4 d-flex  m-0 p-0">
+                        <img class="img-fluid mx-auto" src="images/document.png" alt="document">
+                    </div>
+                    <div class="col-12 col-lg-8 pt-4">
+                            <h2>Layred Neatly Photoshop Template</h2>
+                            <div>
+                                <p class="fw-lighter fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minima hic porro officia illo
+                                    ipsa! Illum laudantium cum accusamus molestiae sint tempore veniam praesentium id modi vero
+                                    placeat, distinctio autem, inventore quisquam?</p>
+                            </div>
+                            <button type="button" class="btn btn-light py-4  border-r px-4 fw-bolder bg-green fs-5 text-white">SHOW MORE</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container py-5 border-top">
+                <div class="row py-5">
+                    <div class="col-12 col-lg-4 order-0 order-lg-1 d-flex  m-0 p-0">
+                        <img class="img-fluid  mx-auto" src="images/document.png" alt="document">
+                    </div>
+                    <div class="col-12 col-lg-8 pt-4 order-1  order-lg-0">
+                            <h2>Layred Neatly Photoshop Template</h2>
+                            <div>
+                                <p class="fw-lighter fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minima hic porro officia illo
+                                    ipsa! Illum laudantium cum accusamus molestiae sint tempore veniam praesentium id modi vero
+                                    placeat, distinctio autem, inventore quisquam?</p>
+                            </div>
+                            <button type="button" class="btn btn-light py-4  border-r px-4 fw-bolder bg-blue fs-5 text-white">SHOW MORE</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-pink">
+            <div class="container py-5">               
+                    <div class="row text-white pt-4">
+                        <div class="col-12">
+                            <h1 class="text-center display-4 fw-bolder">MEET OUR TEAM</h1>
+                        </div>
+                        <div class="col-12 col-lg-6 mx-auto">
+                            <p class="text-center w-100 mx-auto fw-light px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id commodi corporis sint maiores, pariatur
+                                provident? Exercitationem, nemo non?</p>
+                        </div>                
+                    </div>
+            </div>
+
+            <div class="container py-5">
+                <div class="row pb-5">
+                    <div class="col-12 mb-3 col-lg-4 d-flex">
+                        <div class="card shadow border-0 text-center mx-auto" >
+                            <img src="images/users.png" class="card-img-top img-fluid w-24r" alt="...">
+                            <div class="card-body">
+                              <h2 class="card-title fw-bolder">JHON SMITH</h2>
+                              <h5>Creative Director</h5>
+                              <p class="card-text fw-lighter fs-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum harum architecto quam.</p>
+                              <div class="d-flex justify-content-center py-2">
+                                <div ><a href="#"><i class="fa-brands fa-facebook display-6 me-3"></i></a></div>
+                                <div class="d-flex "><a href="#" class="m-auto "><img class="img-twitter " alt="logo-twitter" src="images/gorjeo.png" ></a></div>
+                                <div ><a href="#"><i class="fa-brands fa-pinterest text-danger ms-3 display-6"></i></a></div>
+                            </div>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    <div class="col-12 col-lg-4 mb-3 ">
+                        <div class="card shadow text-center mx-auto border-0 px" >
+                            <img src="images/users.png" class="card-img-top img-fluid w-24r" alt="...">
+                            <div class="card-body">
+                              <h2 class="card-title fw-bolder">JHON SMITH</h2>
+                              <h5>Creative Director</h5>
+                              <p class="card-text fw-lighter fs-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum harum architecto quam.</p>
+                              <div class="d-flex justify-content-center py-2">
+                                <div><a href="#"><i class="fa-brands fa-facebook display-6 me-3"></i></a></div>
+                                <div class="d-flex"><a href="#" class="m-auto"><img class="img-twitter " alt="logo-twitter" src="images/gorjeo.png" ></a></div>
+                                <div><a href="#"><i class="fa-brands fa-pinterest text-danger ms-3 display-6"></i></a></div>
+                            </div>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col-12  col-lg-4 mb-3">
+                        <div class="card shadow text-center mx-auto border-0" >
+                            <img src="images/users.png" class="card-img-top img-fluid w-24r" alt="...">
+                            <div class="card-body">
+                              <h2 class="card-title fw-bolder">JHON SMITH</h2>
+                              <h5>Creative Director</h5>
+                              <p class="card-text fw-lighter fs-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum harum architecto quam.</p>
+                              <div class="d-flex justify-content-center py-2">
+                                <div><a href="#"><i class="fa-brands fa-facebook display-6 me-3"></i></a></div>
+                                <div class="d-flex"><a href="#" class="m-auto"><img class="img-twitter " alt="logo-twitter" src="images/gorjeo.png" ></a></div>
+                                <div><a href="#"><i class="fa-brands fa-pinterest text-danger ms-3 display-6"></i></a></div>
+                            </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="bg-blue-light">
+            <div class="container pt-5">               
+                <div class="row text-white pt-4">
+                    <div class="col-12">
+                        <h1 class="text-center display-4 fw-bolder">RECENT POSTS</h1>
+                    </div>
+                    <div class="col-12 col-lg-6 mx-auto">
+                        <p class="text-center w-100 mx-auto fw-light px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id commodi corporis sint maiores, pariatur
+                            provident? Exercitationem, nemo non?</p>
+                    </div>                
+                </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 mx-auto col-lg-4 mb-3">
+                    <div class="card shadow w-24r border-0 text-center mx-auto" >
+                        
+                        <div class="bg-image d-flex">
+                            <img src="images/x_arrow.png" class=" img-fluid  m-auto" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title fw-bolder">Really Interesting Post</h2>
+                          <p class="fst-italic">October 27</p>
+                          <p class="card-text fw-lighter fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto possimus est
+                            sint pariatur? Perspiciatis saepe voluptates doloremque in doloribus aut debitis?
+                            Fugit, suscipit.</p>
+                         
+                        </div>
+                      </div>
+                      
                     
-                    <div class="recent-imagenesg2">
-                        <img class="recent-imagenesg--im1" src="images/recent-works-4.png" alt="recent-works-4">
-                        <img class="recent-imagenesg--im1" src="images/recent-works-5.png" alt="recent-works-5">
-                        <img class="recent-imagenesg--im1" src="images/recent-works-61.png" alt="recent-works-6">
-                    </div>
-                    
+
                 </div>
-
-            <div class="recent--botom"> <a class="show-more" href="#"><h1> SHOW MORE</h1></a> </div>
-
-
-        </section>
-
-        <section class="layre__section3">
-            <div class="container-layred ">
-                <div class="container-layred--documento"><img src="images/document.png" alt="document"></div>
-                <div class="container-layred--texto ">
-                    <h2>Layred Neatly Photoshop Template</h2>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minima hic porro officia illo
-                            ipsa! Illum laudantium cum accusamus molestiae sint tempore veniam praesentium id modi vero
-                            placeat, distinctio autem, inventore quisquam?</p>
-                    </div>
-                    <a href="#"><div class="boton-layred"><h3> SHOW MORE</h3></div></a>
-                </div>
-
-            </div>
-
-            <div class="layred-linea"></div>
-            <div class="container-layred secum">
-
-                <div class="container-layred--documento2"><img src="images/document.png" alt="document"></div>
-                <div class="container-layred--texto2">
-                    <h2>Layred Neatly Photoshop Template</h2>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minima hic porro officia illo
-                            ipsa! Illum laudantium cum accusamus molestiae sint tempore veniam praesentium id modi vero
-                            placeat, distinctio autem, inventore quisquam?</p>
-                    </div>
-                    <a href="#"><div class="boton-layred2"><h3> SHOW MORE</h3></div></a>
-                </div>
-            </div>
-
-        </section>
-        <section class="meet__section4">
-            <div class="meet-container--principal">
-                <div class="meet--titulo">
-                    <h1>MEET OUR TEAM</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus unde quam numquam dolor vel
-                        veniam dolore corrupti aut!</p>
-                </div>
-                <div class="meet-cards">
-                    <div class="meet-cards--card1">
-                        <img class="meet-imgaa" src="images/Captura de Pantalla 2022-04-11 a la(s) 3.03.25 p. m..png" alt="meet-imagen" >
-                        <div class="meet-cardText">
-                            <h2>JHON SMIT</h2>
-                            <h3>Creative Director</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, fugiat? Itaque,
-                                perspiciatis?</p>
-                           
-                        <div class="meet-cards--iconos">
-                            <div class="meet-cards--logo2"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
-                            <div class="meet-cards--logo2"><a  href="#"><img src="images/gorjeo.png" alt="logo-twitter" ></a></div>
-                            <div class="meet-cards--logo2"><a href="#"><i class="fa-brands fa-pinterest"></i></a></div>
+                <div class="col-12 mx-auto col-lg-4 mb-3">
+                    <div class="shadow card w-24r border-0 text-center mx-auto" >
+                        
+                        <div class="bg-image d-flex">
+                            <img src="images/x_arrow.png" class=" img-fluid  m-auto" alt="...">
                         </div>
+                        <div class="card-body">
+                          <h2 class="card-title fw-bolder">Really Interesting Post</h2>
+                          <p class="fst-italic">October 27</p>
+                          <p class="card-text fw-lighter fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto possimus est
+                            sint pariatur? Perspiciatis saepe voluptates doloremque in doloribus aut debitis?
+                            Fugit, suscipit.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 mx-auto col-lg-4 mb-3">
+                    <div class="card shadow w-24r border-0 text-center mx-auto" >
+                        
+                        <div class="bg-image d-flex">
+                            <img src="images/x_arrow.png" class=" img-fluid  m-auto" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title fw-bolder">Really Interesting Post</h2>
+                          <p class="fst-italic">October 27</p>
+                          <p class="card-text fw-lighter fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto possimus est
+                            sint pariatur? Perspiciatis saepe voluptates doloremque in doloribus aut debitis?
+                            Fugit, suscipit.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex py-5">
+            <div class="row mx-auto pb-5 ">
+                <button type="button" class="btn btn-light py-4 border border-r px-4 fw-bolder fs-5 text-blue-light">SHOW MORE</button>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="bg-grey">
+            <div class="container">
+                <div class="row text-white pt-5">
+                    <div class="col-12">
+                        <h1 class="text-center display-4 fw-bolder">CONTACT US</h1>
+                    </div>
+                    <div class="col-12 col-lg-6 mx-auto">
+                        <p class="text-center w-100 mx-auto fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id commodi corporis sint maiores, pariatur
+                            provident? Exercitationem, nemo non?</p>
+                    </div>                
+                </div>
+            </div>
+            <div class="contaienr">
+                <div class="row w-100">
+                    <div class="col-12 col-lg-7 mx-auto">
+                        <form class="w-75 py-5 mx-auto">
                             
+                              <input type="text" class="form-control py-4 px-4 mb-5 border-r fs-4" placeholder="Name:" >
+                              <input type="email" class="form-control py-4 px-4 mb-5 border-r fs-4" placeholder="Email:" >
+                              <textarea class="form-control px-4 fs-4 border-r  h-200p " placeholder="Message:"></textarea>
+                              
                             
-                        </div>
+                          </form>
                     </div>
-
-                    <div class="meet-cards--card1">
-                        <img class="meet-imgaa" src="images/Captura de Pantalla 2022-04-11 a la(s) 3.03.25 p. m..png" alt="meet-imagen" >
-                        <div class="meet-cardText">
-                            <h2>JHON SMIT</h2>
-                            <h3>Creative Director</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, fugiat? Itaque,
-                                perspiciatis?</p>
-                                <div class="meet-cards--iconos">
-                                    <div class="meet-cards--logo2"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
-                                    <div class="meet-cards--logo2"><a href="#"><img alt="logo-twitter" src="images/gorjeo.png" ></a></div>
-                                    <div class="meet-cards--logo2"><a href="#"><i class="fa-brands fa-pinterest"></i></a></div>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="meet-cards--card1">
-                        <img class="meet-imgaa" src="images/Captura de Pantalla 2022-04-11 a la(s) 3.03.25 p. m..png" alt="meet-imagen" >
-                        <div class="meet-cardText">
-                            <h2>JHON SMIT</h2>
-                            <h3>Creative Director</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, fugiat? Itaque,
-                                perspiciatis?</p>
-                                <div class="meet-cards--iconos">
-                                    <div class="meet-cards--logo2"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
-                                    <div class="meet-cards--logo2"><a href="#"><img alt="logo-twitter" src="images/gorjeo.png" ></a></div>
-                                    <div class="meet-cards--logo2"><a href="#"><i class="fa-brands fa-pinterest"></i></a></div>
-                                </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <section class="recent-post__section5">
-            <div class="recent-contenedor--principal">
-                <div class="header-post">
-                    <div class="recent-post--titulo">
-                        <h1>RECENT POSTS</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus unde quam numquam dolor vel
-                            veniam dolore corrupti aut!</p>
-                    </div>
-
-                    <div class="container-posts">
-                        <div class="container-posts--card">
-                            <div class="post-card--fondo"><img src="images/x_arrow.png" alt="x_arrow"></div>
-
-                            <div class="post-card--texto">
-                                <h2>Really interesting Post</h2>
-                                <h4>October 27</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto possimus est
-                                    sint pariatur? Perspiciatis saepe voluptates doloremque in doloribus aut debitis?
-                                    Fugit, suscipit.</p>
-                            </div>
-                        </div>
-
-                        <div class="container-posts--card">
-                            <div class="post-card--fondo"><img src="images/x_arrow.png" alt="x_arrow"></div>
-                            <div class="post-card--texto">
-                                <h2>Really interesting Post</h2>
-                                <h4>October 27</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto possimus est
-                                    sint pariatur? Perspiciatis saepe voluptates doloremque in doloribus aut debitis?
-                                    Fugit, suscipit.</p>
-                            </div>
-                        </div>
-
-                        <div class="container-posts--card">
-                            <div class="post-card--fondo"><img src="images/x_arrow.png" alt="x_arrow"></div>
-                            <div class="post-card--texto">
-                                <h2>Really interesting Post</h2>
-                                <h4>October 27</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto possimus est
-                                    sint pariatur? Perspiciatis saepe voluptates doloremque in doloribus aut debitis?
-                                    Fugit, suscipit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="recent-post--botom"> <a class="recent-botom--show" href="#"><h1> SHOW MORE</h1></a> </div>
-
                 </div>
             </div>
-
-        </section>
-
-        <section class="contactUs__section6">
-
-            <div class="contactUs--titulo">
-
-                <h1>CONTACT US</h1>
-
-                <div class="contactUs--parrafo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus unde quam numquam dolor vel
-                        veniam dolore corrupti aut!</p>
+            <div class="container d-flex py-5">
+                <div class="row mx-auto pb-5 ">
+                    <button type="button" class="btn btn-light py-4 border border-r px-4 fw-bolder fs-5 text-grey-light">SHOW MORE</button>
                 </div>
-            </div>
-
-            <div class="contact--box">
-                <form action="submit">
-                    <input type="text"  id="Name" placeholder="Name:">
-                    <input type="text"  id="Email" placeholder="Email:">
-                    <textarea id="Cajatexto" placeholder="Message:"></textarea>
-                    <div class="contact-botom"> <a class="show-box" href="#"><h1> SHOW MORE</h1></a> </div>
-
-
-                </form>
             </div>
 
         </section>
     </main>
-    <footer class="footer">
 
-        <div class="footer-lineaa"></div>
-
-        <div class="footer-container">
-
-
-            <div class="footer-logos">
-
-                <a href="#" class="cont-logo"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="cont-logo"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="cont-logo"><i class="fa-brands fa-html5"></i></a>
-                <a href="#" class="cont-logo"><i class="fa-brands fa-css3"></i></a>
-
-            </div>
-            <div class="footer-texto">
-                <h3> <a class="p-amarillo" href="#">Bloom Web Design </a> Copyrigth <a class="footer_text"> 2013. | Power </a> By <a class="p-amarillo" href="#">Wordpress</a>
-                </h3>
+    <footer class="bg-grey ">
+        <div class="container-fluid w-75 mx-auto">
+            <div class="row border-top border-2 border-dark py-5">
+                  <div class="d-block d-lg-flex justify-content-between">
+                        <div class="d-flex ps-2 ">
+                            <a href="#" class="cont-logo text-decoration-none d-flex rounded-circle me-3 bg-grey-lighter "><i class="fa-brands fa-twitter text-grey-light m-auto fs-2"></i></a>
+                            <a href="#" class="cont-logo text-decoration-none d-flex rounded-circle me-3 bg-grey-lighter"><i class="fa-brands fa-facebook-f text-grey-light m-auto fs-2"></i></a>
+                            <a href="#" class="cont-logo text-decoration-none d-flex rounded-circle me-3 bg-grey-lighter"><i class="fa-brands fa-html5 text-grey-light m-auto fs-2"></i></a>
+                            <a href="#" class="cont-logo text-decoration-none d-flex rounded-circle me-3 bg-grey-lighter"><i class="fa-brands fa-css3 text-grey-light m-auto fs-2"></i></a> 
+                        </div>
+                        <div class=" text-grey-lighter my-3 fs-5">
+                            <p> <a class="text-decoration-none text-orange " href="#">Bloom Web Design</a>  Copyrigth ©  <span class="font-monospace">2013. | Powered </span>  By <a class="text-decoration-none text-orange " href="#">Wordpress</a>  </p>
+                        </div>
+                  </div>
             </div>
         </div>
-    </footer>
-</body>
 
+    </footer>
+
+
+    
+ 
+    
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/ulg/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
 </html>
