@@ -1,35 +1,28 @@
 @import url(var.css);
 
 /* Header */
-header{
-    background-color: var(--template); 
-}
-.porftolio-border  {
+.bg-grey-dark  {
     background-color: var(--grey-dark) !important;
 }
-.circle-next{
+.nav-carousel{
     height: 28px;
     width: 28px; 
 }
-.circle-diferent {
+.nav-carousel-select {
     height: 28px;
     width: 28px;
 }
 
 /* Main */
 
-/* Section-recent-works */
-.recent-works{
-    background-color: var(--recent-works);
-}
- /* Section-layred */
-.layred{
-    background-color: var(--layred);
-}
 
-/* Secion meet */
-.meet{
-    background-color: var(--meet);
+ /* Section-layred */
+.bg-white-soke{
+    background-color: var(--white-smoke);
+}
+/* Section-meet*/
+.bg-pink{
+    background-color: var(--pink);
 }
 .card{
     width: 21rem;
@@ -40,10 +33,10 @@ header{
 }
 
 /* section-recent-post */
-.recent{
-    background-color: var(--recent) ;
+.bg-blue-light{
+    background-color: var(--blue-light) ;
 }
-.users{
+.w-24r{
     width: 24rem !important;
 }
 .bg-image{
@@ -52,7 +45,7 @@ header{
 }
 
 /* Section-contact-us*/
-textarea{
+.h-200p{
     height: 200px !important;
 }
 
@@ -69,13 +62,13 @@ textarea{
     width: 70% !important;
 }
 .bg-green{
-    background-color: var(--recent-works) !important;
+    background-color: var(--green) !important;
 }
-.bg-blue-light{
-    background-color: var(--template) !important;
+.bg-blue{
+    background-color: var(--blue) !important;
 }
 .text-blue-light{
-    color: var(--template) !important;
+    color: var(--blue) !important;
 }
 .w-35{
     width: 35% !important;
@@ -87,7 +80,7 @@ textarea{
     color: var(--orange-lighter);
 }
 .text-grey-light{
-    color: var(--contact-us) !important;
+    color: var(--grey) !important;
 }
 .text-grey-lighter{
     color: var(--grey-lighter) !important;
@@ -96,8 +89,9 @@ textarea{
     background-color: var(--grey-lighter) ;
 }
 .bg-grey{
-    background-color: var(--contact-us) !important;
+    background-color: var(--grey) !important;
 }
+
 .border-r{
     border-radius: 10px !important;
 }
