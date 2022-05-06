@@ -1,0 +1,22 @@
+body,html{
+    height: 100%;
+}
+.main{
+    background-color: #e6e6e6;
+    height: 100%;
+}
+
+.bg-yellow-light{
+    background-color: #fcf9d7 !important;
+}
+
+.w-40{
+    width: 40% !important;
+}
+
+.h-500px{
+    height: 200px !important;
+}
+.text-grey-lighter{
+    color: #787878 !important;
+}
