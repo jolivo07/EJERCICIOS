@@ -1,5 +1,3 @@
-    var hours = document.getElementById("hours").value;
-    var minutes = document.getElementById("minutes").value;
 
 function change(){
     document.getElementById("col-1").classList.toggle("col-12")
