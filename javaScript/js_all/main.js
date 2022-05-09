@@ -56,7 +56,8 @@ document.getElementById("boton").onclick = function(){
     }else if (minutes.length == 0 || y > 60) {
         
         document.getElementById("oculto").classList.remove("d-none")
-    }else {
+    }else  {
+        document.getElementById("oculto").classList.add("d-none")
         addText()
         reloj()
         
