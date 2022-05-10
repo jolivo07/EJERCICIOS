@@ -9,13 +9,13 @@ document.getElementById("change").onclick=function (){
 }
 
 
-function angle_hours(){
+function angleHours(){
     let hours = document.getElementById("angle-hours").value;
     let minutes = document.getElementById("angle-minutes").value;
     let x = parseInt(hours)
     let y = parseInt(minutes)
     const resutl = x/30
-   if (hours.length == 0 || minutes.length == 0 || x<30 || y<6 ){
+   if (hours.length == 0 || minutes.length == 0 || x<30  ){
     document.getElementById("read-request").classList.remove("d-none")
    }else if ((x % 3) != 0 || (y % 6) != 0){
     document.getElementById("read-request").classList.add("d-none")
@@ -29,13 +29,13 @@ function angle_hours(){
 
 }
 
-function angle_minutes(){
+function angleMinutes(){
     let minutes = document.getElementById("angle-minutes").value;
     let hours = document.getElementById("angle-hours").value;
     let x = parseInt(hours)
     let y = parseInt(minutes)
     const resutl = y/6
-    if (minutes.length == 0 || hours.length == 0 || y < 6 || x<30 ){
+    if (minutes.length == 0 || hours.length == 0 || x<30 ){
         document.getElementById("read-request").classList.remove("d-none")
        } else if((y % 6) != 0 ||(x % 3) != 0  ){
         document.getElementById("warning").classList.remove("d-none")
@@ -50,7 +50,7 @@ function angle_minutes(){
     }
 
 document.getElementById("btn-send-information").onclick=function(){
-   angle_hours()
-    angle_minutes()
+   angleHours()
+    angleMinutes()
 
 }
