@@ -23,6 +23,3 @@ body,html{
 .text-grey-lighter{
     color:var(--grey-lighter) !important;
 }
-.w-96{
-    width: 96%;
-}

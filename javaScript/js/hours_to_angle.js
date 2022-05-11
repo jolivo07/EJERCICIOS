@@ -1,5 +1,6 @@
 document.getElementById("change").onclick=function (){
-    document.getElementById("changes").classList.toggle("col-12")
+    document.getElementById("col-1").classList.toggle("col-12")
+    document.getElementById("col-2").classList.toggle("col-12")
 }
 
 function addText(){
@@ -18,7 +19,7 @@ function addText(){
 
 }
 
-    function reloj(){
+    function angleClock(){
         let hours = document.getElementById("hours").value;
         let minutes = document.getElementById("minutes").value;
         let x = parseInt(hours);
@@ -46,6 +47,7 @@ document.getElementById("btn-send-information").onclick = function(){
     let minutes = document.getElementById("minutes").value;
     let x = parseInt(hours);
     let y = parseInt(minutes);
+    
     if (hours.length == 0  || x > 12 ) {
         document.getElementById("read-request").classList.remove("d-none")
     }else if (minutes.length == 0 || y > 60) {
@@ -54,7 +56,7 @@ document.getElementById("btn-send-information").onclick = function(){
     }else  {
         document.getElementById("read-request").classList.add("d-none")
         addText()
-        reloj()
+        angleClock()
         
     }
 
