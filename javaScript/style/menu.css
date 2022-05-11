@@ -1,0 +1,9 @@
+@import url(var.css);
+
+html,body{
+    height: 100%;
+}
+.main{
+    background-color: var(--white-smoke);
+    height: 100%;
+}

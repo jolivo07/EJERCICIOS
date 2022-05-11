@@ -1,0 +1,25 @@
+@import url(var.css);
+
+body,html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-color: var(--white-smoke);
+    height: 100%;
+}
+
+.bg-yellow-light{
+    background-color: var(--yellow-light) !important;
+}
+
+.w-40{
+    width: 40% !important;
+}
+
+.h-200px{
+    height: 200px !important;
+}
+.text-grey-lighter{
+    color:var(--grey-lighter) !important;
+}
