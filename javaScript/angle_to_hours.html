@@ -1,82 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/hours.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/hours.css" />
     <title>Get Angle</title>
 </head>
-<body>
-   
 
-    <div class="main d-flex justify-content-center  align-content-center ">
+<body>
+    <div class="main d-flex justify-content-center align-content-center">
         <div class="container-fluid w-40 bg-white m-auto p-5 shadow">
             <div class="container-fluid px-0 p-3 border-bottom mb-4">
                 <div class="row">
-                    <div class="col-9 fs-4 text-grey-lighter">Get time value with specific Angle° .</div>
-                    <div class="col-3"><button type="button" id="change" class="btn btn-outline-success">Change Layout</button></div>
-                    
+                    <div class="col-9 fs-4 text-grey-lighter">
+                        Get time value with specific Angle° .
+                    </div>
+                    <div class="col-3">
+                        <button type="button" id="change" class="btn btn-outline-success">
+                            Change Layout
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div id="read-request" class="container border border-danger d-none p-1 m-2 mb-3  ">
+            <div id="read-request" class="container border border-danger d-none p-1 m-2 mb-3">
                 <div class="row">
                     <div class="col-12 text-center d-flex">
                         <p class="m-auto text-danger">Read Request</p>
                     </div>
                 </div>
             </div>
-            <div id="warning" class="container border border-warning d-none p-1 m-2 mb-3  ">
+            <div id="warning" class="container border border-warning d-none p-1 m-2 mb-3">
                 <div class="row">
                     <div class="col-12 text-center d-flex">
                         <p class="m-auto text-warning">this time could be exact</p>
                     </div>
                 </div>
             </div>
-            
 
             <div class="container p-0">
-                <div class="row" >
+                <div class="row">
                     <div id="col-1" class="col-6">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label text-grey-lighter">Angle <b class="fs-5">Hours</b>  </label>
-                            <input  minlength="1" maxlength="3" class="form-control text-grey-lighter" required id="angle-hours" aria-describedby="emailHelp" placeholder="Angle°">
-                            
-                          </div>
+                            <label for="exampleInputEmail1" class="form-label text-grey-lighter">Angle <b
+                                    class="fs-5">Hours</b>
+                            </label>
+                            <input minlength="1" maxlength="3" class="form-control text-grey-lighter" required
+                                id="angle-hours" aria-describedby="emailHelp" placeholder="Angle°" />
+                        </div>
                     </div>
                     <div id="col-2" class="col-6">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label text-grey-lighter">Angle <b class="fs-5">Minutes</b></label>
-                            <input  class="form-control text-grey-lighter" minlength="1" maxlength="3" required  id="angle-minutes"  placeholder="Angle°">
-                    
-                          </div>
+                            <label for="exampleInputEmail1" class="form-label text-grey-lighter">Angle <b
+                                    class="fs-5">Minutes</b></label>
+                            <input class="form-control text-grey-lighter" minlength="1" maxlength="3" required
+                                id="angle-minutes" placeholder="Angle°" />
+                        </div>
                     </div>
-
                 </div>
             </div>
 
             <div class="container p-0">
                 <div class="row">
-                    <div class="col-12"><button type="submit" id="btn-send-information"  class="btn boton btn-success w-100">Send Information</button></div>
+                    <div class="col-12">
+                        <button type="submit" id="btn-send-information" class="btn boton btn-success w-100">
+                            Send Information
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="  container h-200px bg-yellow-light pt-4 mt-4  ">
-                <div class="col-12 px-5 text-center text-grey-lighter"><p id="result-paragraph" class="fs-5">Add angle to get an hours and minutes</p></div>
+            <div class="container h-200px bg-yellow-light pt-4 mt-4">
+                <div class="col-12 px-5 text-center text-grey-lighter">
+                    <p id="result-paragraph" class="fs-5">
+                        Add angle to get an hours and minutes
+                    </p>
+                </div>
                 <div class="row m-auto w-50">
-                    <div class="col-4 mx-auto bg-white display-5  text-center  text-grey-lighter fw-bolder"><p class="m-auto py-3" id="result-hours">0</p> </div> 
-                    <div class="col-4 w-25 display-5 fw-bolder  text-grey-lighter text-center "><p class="m-auto py-3 ">:</p></div>
-                    <div class="col-4 mx-auto bg-white display-5  text-center  text-grey-lighter fw-bolder"><p class="m-auto py-3" id="result-minutes">0</p> </div>
+                    <div class="col-4 mx-auto bg-white display-5 text-center text-grey-lighter fw-bolder">
+                        <p class="m-auto py-3" id="result-hours">0</p>
+                    </div>
+                    <div class="col-4 w-25 display-5 fw-bolder text-grey-lighter text-center">
+                        <p class="m-auto py-3">:</p>
+                    </div>
+                    <div class="col-4 mx-auto bg-white display-5 text-center text-grey-lighter fw-bolder">
+                        <p class="m-auto py-3" id="result-minutes">0</p>
+                    </div>
                 </div>
             </div>
-        
         </div>
     </div>
-  
- <script src="js/angle_to_hours.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="js/angle_to_hours.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
